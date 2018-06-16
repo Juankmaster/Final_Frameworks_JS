@@ -34,6 +34,7 @@ body{
   height: 750px;
   display: flex;
   flex-flow: row wrap;
+
 }
 
 .panel-score{
@@ -97,10 +98,18 @@ div[class^='col']{
   justify-content: flex-end;
   align-items: center;
 
+
 }
 
 .elemento{
   width: 99.4px;
   height: 96px;
 
+}
+.final-titulo{
+  font-family: gameFont;
+  font-size: 4em;
+  color: red;
+  width: 100%;
+  padding-left: 600px;
 }
